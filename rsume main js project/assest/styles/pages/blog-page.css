@@ -1,0 +1,93 @@
+.articles {
+    width: 48% !important;
+    border: 1px solid #EEEEEE;
+    box-shadow: 1px 1px 3px 1px #E3F2FD;
+    transition: all linear 300ms;
+    -webkit-transition: all linear 300ms;
+    -moz-transition: all linear 300ms;
+    -ms-transition: all linear 300ms;
+    -o-transition: all linear 300ms;
+}
+.articles:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.article-blog-page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 71%;
+    gap: 40px 20px;
+    margin-bottom: 30px;
+}
+.text-search-box-blog-page {
+    border: 1px solid #EEEEEE;
+    box-shadow: 1px 1px 3px 1px #E3F2FD;
+    direction: rtl;
+    display: none;
+}
+.link-search-box:hover {
+    transition: 300ms linear all;
+    -webkit-transition: 300ms linear all;
+    -moz-transition: 300ms linear all;
+    -ms-transition: 300ms linear all;
+    -o-transition: 300ms linear all;
+
+}
+.link-search-box:hover {
+    background-color: var(--yellow);
+}
+.active {
+    display: block;
+}
+@media screen and (max-width:1400px) {
+    /*  */
+}
+@media screen and (max-width:1200px) {
+    /*  */
+    .button-articles {
+        right: 27% !important;
+    }
+}
+@media screen and (max-width:992px)  {
+    .title-articles {
+        text-wrap: wrap !important;
+    }
+    .button-articles {
+        right: 22% !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .container-all-blog-page {
+        flex-direction: column;
+    }
+    .article-blog-page {
+        width: 100%;
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width:576px)  {
+    .articles {
+        width: 100% !important;
+    }
+    .button-articles {
+        right: 35% !important;
+    }
+}
+@media screen and (max-width:450px) {
+    .button-articles {
+        right: 33% !important;
+    }
+}
+@media screen and (max-width:340px) {
+    .button-articles {
+        right: 30% !important;
+    }
+}
+@media screen and (max-width:300px) {
+    .button-articles {
+        right: 27% !important;
+    }
+}

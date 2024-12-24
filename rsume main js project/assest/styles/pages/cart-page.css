@@ -1,0 +1,90 @@
+.cart-contianer {
+    direction: rtl;
+}
+table , td , th {
+    border-bottom: 1px solid #ddd;
+    color: #7f7e83;
+}
+th , td{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.th-whole {
+    width: 50px;
+}
+.btn-remove {
+    color: white;
+    background-color: red;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    width: 30px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.before-sign-in {
+    display: flex ;
+    padding: 20px 10px 10px 0px;
+    gap: 5px;
+    font-style: 20px;
+    width: 100%;
+    background-color: #B2EBF2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.link-sign-in {
+    color: #0D47A1;
+    font-size: 20px;
+}
+.buy-product-container {
+    display: flex;
+    justify-content: space-between;
+}
+.final-buy {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 500px;
+    background-color: #ececec;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn-final-buy {
+    background-color: var(--yellow);
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: white;
+}
+.btn-sale {
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.input-sale{
+    padding: 10px 20px;
+    width: 300px;
+}

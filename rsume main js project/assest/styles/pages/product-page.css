@@ -1,0 +1,123 @@
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+.description-product-contianer {
+    width: 58%;
+}
+.img-product {
+    width: 40%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.title-product {
+    font-weight: bold;
+    font-size: 24px;
+}
+.add-product {
+    border: none;
+    outline: none;
+    background-color: var(--yellow);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.cost-product {
+    background-color: #FF8F00;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.member-product {
+    background-color: #1976D2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.questions-product {
+    direction: rtl;
+}
+.yellow-icon {
+    color: var(--yellow);
+}
+.container-yellow-icon {
+    position: relative;
+}
+.container-yellow-icon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 140px;
+    height: 6px;
+    background-color: #FF8F00;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    bottom: -13px;
+    right: -1px;
+    z-index: 1;
+}
+@media screen and (max-width:1400px) {
+    /*  */
+}
+@media screen and (max-width:1200px) {
+    /*  */
+}
+@media screen and (max-width:992px)  {
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-product {
+        width: 500px;
+        height: 400px;
+    }
+    .description-product-contianer {
+        width: 100%;
+    }
+    .title-product {
+        font-size: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:768px) {
+    /*  */
+}
+@media screen and (max-width:576px)  {
+    .img-product {
+        width: 100%;
+        height: inherit;
+    }
+    .title-product {
+        font-size: 16px;
+    }
+    .add-product {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .cost-product {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .member-product {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}

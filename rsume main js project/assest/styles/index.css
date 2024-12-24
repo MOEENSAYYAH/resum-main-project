@@ -1,0 +1,15 @@
+/* base */
+@import url(base/_font-face.css);
+@import url(base/_reset.css);
+@import url(base/_variables.css);
+
+/* layouts */
+@import url(layouts/_header.css);
+@import url(layouts/_footer.css);
+
+/* components */
+@import url(../components/courses/courses.css);
+@import url(../components/articles/articles.css);
+
+/* page */
+@import url(pages/index-page.css);

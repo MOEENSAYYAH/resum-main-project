@@ -1,0 +1,12 @@
+/* base */
+@import url(base/_font-face.css);
+@import url(base/_reset.css);
+@import url(base/_variables.css);
+
+/* layouts */
+@import url(layouts/_header.css);
+@import url(layouts/_footer.css);
+@import url(layouts/_navbar-articles.css);
+
+/* Page */
+@import url(pages/article-page.css);

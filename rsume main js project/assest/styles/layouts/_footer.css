@@ -1,0 +1,225 @@
+footer {
+    background-color: #292a30;
+    color: white;
+}
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'shabnam-bold';
+}
+.title-footer-title {
+    width: 25%;
+    text-align: end;
+    position: relative;
+}
+.title-footer-title::after {
+    width: 5px;
+    height: 5px;
+    background-color: #ffb02d;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: -1.5rem;
+    z-index: 1;
+    content: '';
+    border-radius: 2px;
+}
+.title-footer-title::before {
+    width: 13px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: -3rem;
+    z-index: 1;
+    content: '';
+    border-radius: 2px;
+}
+.list-contianer {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 60%;
+}
+.list-link {
+    text-decoration: none;
+    position: relative;
+    color: #BDBDBD;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+.list-link:hover {
+    font-size: 16px;
+}
+.list-link::after{
+    content: '';
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #BDBDBD;
+    position: absolute;
+    right: -10px;
+    top: 50%;
+}
+.list-footer {
+    width: 190px;
+    direction: rtl;
+    line-height: 40px;
+}
+.desription-footer {
+    direction: rtl;
+    width: 520px;
+}
+.description-item-footer {
+    color: #fff;
+    margin-top: 80px;
+} 
+.description-child-item-header {
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.icon-description {
+    background-color: #434449;
+    padding: 5px 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.footer-list-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-family: 'shabnam';
+
+}
+.last-footer {
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'shabnam';
+    font-size: 14px;
+}
+.up-icon{
+    padding: 15px 15px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin-bottom: 10px;
+    color: white;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+.up-icon:hover {
+    background-color: var(--yellow);
+}
+.intoduce-breakpoint {
+    width: 100%;
+    direction: rtl;
+    display: none;
+}
+.special-order-breakpoint {
+    width: 100%;
+    direction: rtl;
+    display: none; 
+}
+@media screen and (max-width:1400px) {
+    /* no code in this scope */
+}
+@media screen and (max-width:1200px) {
+    /* no code in this scope */
+}
+@media screen and (max-width:992px)  {
+    .list-contianer {
+        display: none;
+    }
+    .desription-footer {
+        display: none;
+    }
+    .footer-title {
+        display: none;
+    }
+    .intoduce-breakpoint {
+        display: block;
+    }
+    .description-item-footer{
+        margin-top: 40px;
+    }
+    .introduce-description {
+        width: 84%;
+        margin-top: 20px;
+    }
+    .title-footer-title {
+        color: white;
+        width: 100px;
+        text-wrap: nowrap;
+    }
+    .footer-list-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .special-order-breakpoint {
+        display: block;
+    }
+    .flex-special-order {
+        display: flex;
+        gap: 25%;
+    }
+    .x {
+        width: 80px;
+    }
+}
+@media screen and (max-width:768px) {
+    /* we dont have any code in this media */
+}
+@media screen and (max-width:576px) {
+    .flex-special-order {
+        display: flex;
+        gap: 10%;
+    }
+    .footer-list-container{
+        font-size: 12px;
+    }
+    .up-icon {
+        padding: 8px 8px;
+    }
+    .last-footer {
+        font-size: 12px;
+    }
+    .title-footer-title {
+        margin-right: 20px;
+    }
+    .title-footer-title::after {
+        right: -.5rem;
+    }
+    .title-footer-title::before {
+        right: -2rem;
+    }
+    .z {
+        margin-right: 34px;
+    }
+    .z::before {
+        right: -4rem;
+    }
+    .z::after {
+        right: -2.5rem;
+    }
+}
